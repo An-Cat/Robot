@@ -1,30 +1,30 @@
 下列语句请在前后用AM#和#AM标记
->例如：AM#Math#1#2#3#AM
+**例如：**`AM#Math#1#2#3#AM`
 #非固值语句#
 **非固值，在游戏开始时初始化，结束后删除**
 ----
 ##数值操作语句##
-	>Math#1#2#3
+	`Math#1#2#3`
 	说明
 		1 为数值名
 		2 为类型（加减乘除中的一个字）
 		3 为操作数量（整数或小数）
 ##显示数值语句##
-	>ShowMath#数值名
+	`ShowMath#数值名`
 ##设置数值语句##
-	>SetMath#数值名#要设置的值
+	`SetMath#数值名#要设置的值`
 ----
 #固值语句#
 **固值不随游戏开始或结束改变，只能通过命令语句发生变化**
 ----
 ##设置固值##
-	>ValueSet#值名#值内容
+	`ValueSet#值名#值内容`
 ##删除固值##
-	>ValueDelete#值名
+	`ValueDelete#值名`
 ##读取固值##
-	>ValueShow#值名
+	`ValueShow#值名`
 ##操作固值：##
-	>ValueAS#值名#操作类型#操作值
+	`ValueAS#值名#操作类型#操作值`
 	操作类型说明
 		+ 将操作值加到旧值后面（旧值：我，操作值：你，结果：我你） 
 		- 将旧值中的操作值删除（旧值：我你，操作值：我，结果：我） 
@@ -34,7 +34,7 @@
 #判断语句#
 **本语句不要用AM#和#AM标记**
 ##语句##
-	>{AM[AM(1)(1)(1)AM][AM2AM][AM3AM]AM}
+	`{AM[AM(1)(1)(1)AM][AM2AM][AM3AM]AM}`
 	语句解析
 		1 标记处为判断语句
 			判断语句说明
@@ -60,19 +60,19 @@
 #其他语句#
 **（此类直接使用，已用AM#和#AM标记）**
 ##取随机数##
-	>AM&RN#最小值#最大值&AM
+	`AM&RN#最小值#最大值&AM`
 ##结束游戏##
-	>AM#End#AM
+	`AM#End#AM`
 ##取QQ##
-	>AM#UserQQ#AM
+	`AM#UserQQ#AM`
 ##取年龄##
-	>AM#UserAge#AM
+	`AM#UserAge#AM`
 ##取昵称##
-	>AM#UserName#AM
+	`AM#UserName#AM`
 ##取时间文本##
-	>AM#NowTimeTxt#AM
+	`AM#NowTimeTxt#AM`
 ##取时间戳##
-	>AM#NowTimeNum#AM
+	`AM#NowTimeNum#AM`
 **（下面取时间均返回对应数字）**
 ##取时间年##
 	`AM#NowTimeYear#AM`
@@ -81,14 +81,14 @@
 ##取时间日##
 	`AM#NowTimeDay#AM`
 ##取时间时##
-	>AM#NowTimeHour#AM
+	`AM#NowTimeHour#AM`
 ##取时间分##
-	>AM#NowTimeMinute#AM
+	`AM#NowTimeMinute#AM`
 ##取时间秒##
-	>AM#NowTimeSecond#AM
+	`AM#NowTimeSecond#AM`
 ##取原消息##
-	>AM#Msg->Original#AM
+	`AM#Msg->Original#AM`
 ##取触发消息##
-	>AM#Msg->Touch#AM
+	`AM#Msg->Touch#AM`
 
 引用文本文件：AM#Re#文件路径#AM（路径为绝对路径，编码为ansi）
