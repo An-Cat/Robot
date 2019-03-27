@@ -1,11 +1,12 @@
-id{am.game.avg},
-ver{5},
-time{1553658455},
-size{1167509},
-MD5{181622297A6ECF217502D71F79F9812E},
-download{https://github.com/An-Mao/Robot/raw/master/download/game/avg/coolq/am.game.avg.cpk},
-list{Ver 4
-·修复诸多BUG
-·新增各种bug
-·打包库更改原打包库无法使用，请下载新的打包库
+id{am.game.avg},  
+ver{6},  
+time{1553658455},  
+size{1168029},  
+MD5{2D40F6DA52174594F0AACBB64CD86B0D},  
+download{https://github.com/An-Mao/Robot/raw/master/download/game/avg/coolq/am.game.avg.cpk},  
+list{Ver 6  
+·修复BUG  
+·新增各种bug  
+·新增远程添加游戏  
+·删除程序中的语句说明  
 }
