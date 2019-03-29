@@ -1,12 +1,11 @@
 id{am.game.avg},  
-ver{6},  
-time{1553658455},  
-size{1168029},  
-MD5{2D40F6DA52174594F0AACBB64CD86B0D},  
+ver{7},  
+time{1553824904},  
+size{565741},  
+MD5{F9A3F0466EAC68AFE03C99C1B93517B3},  
 download{https://github.com/An-Mao/Robot/raw/master/download/game/avg/coolq/am.game.avg.cpk},  
-list{Ver 6  
+list{Ver 7  
 ·修复BUG  
 ·新增各种bug  
-·新增远程添加游戏  
-·删除程序中的语句说明  
+·新增游戏更新  
 }
